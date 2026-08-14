@@ -1,11 +1,14 @@
+
 import Footer from "../Pages/Footer";
 
-import Dashboard from "../Pages/Dashboard";
+
+import { Outlet } from "react-router";
 
 const RootLayout = () => {
   return (
     <div>
-      <Dashboard></Dashboard>
+   
+     <Outlet></Outlet>
       <Footer></Footer>
     </div>
   );
